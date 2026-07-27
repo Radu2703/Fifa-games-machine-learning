@@ -17,4 +17,4 @@ The parameter “random_state” is set to 0 wherever it is used.
 The dataset provided includes the players data for the Career Mode from FIFA 15 to FIFA 23.
 The data allows multiple comparisons for the same players across the last 9 versions of the videogame.
 
-Download link of the dataset: https://www.kaggle.com/datasets/stefanoleone992/fifa-23-complete-player-dataset?select=male_teams.csv
+Observation: you will need to download the dataset from the following link, and put it in the same folder as the program: https://www.kaggle.com/datasets/stefanoleone992/fifa-23-complete-player-dataset?select=male_teams.csv
