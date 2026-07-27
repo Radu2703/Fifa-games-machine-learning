@@ -1,0 +1,20 @@
+Using a dataset of male teams for FIFA video games (from FIFA 15 to FIFA 23), we have performed data exploration, added a column named “Tier”, based on the values in the column “overall”, and removed the non-numerical columns.
+On the data, we have executed regression, classification and data visualization and clustering as follows:
+we used the column “midfield” to predict the column “overall” in the univariate case, or the columns “midfield” and “defence” in the bivariate case,
+for classification, we used every numerical column to classify by the newly added column “Tier”, and for data visualization and clustering, we just used every numerical column.
+
+The following actions were taken:
+univariate and bivariate linear regression, univariate and bivariate polynomial regression with degrees from 2 to 8, univariate and bivariate Ridge, Lasso and ElasticNet regression, logistic regression,
+K-NN classification with k equal to 1, 3, 5, 7, or 9, linear SVC, polynomial and RBF kernel SVC of degree 2, univariate and bivariate linear SVR, univariate and bivariate polynomial kernel SVR of degree 2,
+univariate and bivariate squared error decision tree regression, univariate and bivariate random forest regression,
+Gini decision tree classification, random forest classification, Gaussian naive bayes (NB) classification, logistic regression with PCA, linear SVC with PCA, Gaussian NB with PCA (PCA ranges from 1 to 10 components),
+PCA and t-SNE data visualization with 1, 2 or 3 components, k-means clustering with k from 2 to 10, and DBSCAN with EPS from 1 to 10.
+
+The SVMs set the parameter C to 2, except for univariate and bivariate polynomial SVR with C equal to 1.
+The decision trees and random forest range in max depth from 1 to 5. K-means has the parameter “n_init” set to “auto”.
+The parameter “random_state” is set to 0 wherever it is used.
+
+The dataset provided includes the players data for the Career Mode from FIFA 15 to FIFA 23.
+The data allows multiple comparisons for the same players across the last 9 versions of the videogame.
+
+Download link of the dataset: https://www.kaggle.com/datasets/stefanoleone992/fifa-23-complete-player-dataset?select=male_teams.csv
